@@ -9,7 +9,7 @@ public class Main {
         BonusMilesService service = new BonusMilesService();
         int price = 10_000;
         int miles = service.calculate(price);
-        System.out.println(miles);
+        System.out.println("За ваш билет будет начислено " + miles + " миль");
 
     }
 }
